@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication14
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double A, B, c;
+            Console.Write("Введите значение переменной A ");
+            A = double.Parse(Console.ReadLine());
+            Console.Write("Введите значение переменной B ");
+            B = double.Parse(Console.ReadLine());
+            c = A;
+            A = B;
+            B = c;
+            Console.Write("Переменная А теперь равна ");
+            Console.WriteLine(A);
+            Console.Write("Переменная B теперь равна ");
+            Console.WriteLine(B);
+            Console.ReadKey();
+        }
+    }
+}
