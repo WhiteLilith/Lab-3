@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication14
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double x, y, A;
+            Console.Write("Введите A: ");
+            A = double.Parse(Console.ReadLine());
+            y = A * A; 
+            y = y * y; 
+            y = y * A;
+            x = y * y ;
+            x = y * y ;
+            Console.Write("Число А в 15 степени равно ");
+            Console.WriteLine(x);
+            Console.ReadKey();
+        }
+    }
+}
